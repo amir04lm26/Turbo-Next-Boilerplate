@@ -1,4 +1,9 @@
-import * as React from "react";
+import { Text } from './Text';
+
 export const Button = () => {
-  return <button>Boop</button>;
+  return (
+    <button>
+      <Text />
+    </button>
+  );
 };
