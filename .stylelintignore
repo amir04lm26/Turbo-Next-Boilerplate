@@ -1,0 +1,10 @@
+# build
+**/.next/*
+**/build/*
+
+# project configs
+package.json
+tsconfig.json
+
+# node_modules
+**/node_modules/*

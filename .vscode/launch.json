@@ -1,0 +1,91 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Customer - Next.js: debug server-side",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "yarn workspace customer dev"
+        },
+        {
+            "name": "Customer - Next.js: debug client-side",
+            "type": "pwa-chrome",
+            "request": "launch",
+            "url": "http://localhost:4000"
+        },
+        {
+            "name": "Customer - Next.js: debug full stack",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "yarn workspace customer dev",
+            "serverReadyAction": {
+                "pattern": "started server on .+, url: (https?://.+)",
+                "uriFormat": "%s",
+                "action": "debugWithChrome"
+            }
+        },
+        {
+            "name": "panel - Next.js: debug server-side",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "yarn workspace panel dev"
+        },
+        {
+            "name": "panel - Next.js: debug client-side",
+            "type": "pwa-chrome",
+            "request": "launch",
+            "url": "http://localhost:4001"
+        },
+        {
+            "name": "panel - Next.js: debug full stack",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "yarn workspace panel dev",
+            "serverReadyAction": {
+                "pattern": "started server on .+, url: (https?://.+)",
+                "uriFormat": "%s",
+                "action": "debugWithChrome"
+            }
+        },
+        {
+            "name": "Storybook - Next.js: debug server-side",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "yarn workspace storybook dev"
+        },
+        {
+            "name": "Storybook - Next.js: debug client-side",
+            "type": "pwa-chrome",
+            "request": "launch",
+            "url": "http://localhost:4006"
+        },
+        {
+            "name": "Storybook - Next.js: debug full stack",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "yarn workspace storybook dev",
+            "serverReadyAction": {
+                "pattern": "started server on .+, url: (https?://.+)",
+                "uriFormat": "%s",
+                "action": "debugWithChrome"
+            }
+        },
+        {
+            "name": "Storybook - Storybook: debug client-side",
+            "type": "pwa-chrome",
+            "request": "launch",
+            "url": "http://localhost:6006"
+        },
+        {
+            "name": "Storybook - Storybook: debug full stack",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "yarn workspace storybook storybook",
+            "serverReadyAction": {
+                "pattern": "Local:.+(https?:\/\/[^ ]*:[0-9]{1,4})",
+                "uriFormat": "%s",
+                "action": "debugWithChrome"
+            }
+        }
+    ]
+}
