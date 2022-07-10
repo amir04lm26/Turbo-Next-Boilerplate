@@ -9,6 +9,8 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "cross-env NODE_OPTIONS='--inspect' turbo run dev --parallel",
+    "test": "turbo run test",
+    "cypress": "turbo run cypress",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,json}\""
   },
@@ -20,6 +22,7 @@
     "@testing-library/user-event": "^14.2.1",
     "@types/jest": "^28.1.4",
     "cross-env": "^7.0.3",
+    "cypress": "^10.3.0",
     "eslint-config-custom": "*",
     "jest": "^28.1.2",
     "jest-environment-jsdom": "^28.1.2",

@@ -3,9 +3,14 @@
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
+  "files": [
+    "index.js",
+    "cypress.js"
+  ],
   "devDependencies": {
     "eslint-config-next": "^12.2.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-jest": "^26.5.3",
     "eslint-plugin-jest-dom": "^4.0.2",
     "eslint-plugin-react": "^7.30.1",
