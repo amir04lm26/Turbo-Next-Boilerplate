@@ -1,11 +1,15 @@
 # build
 **/.next/*
+**/dist/*
 
 # node_modules
 **/node_modules/*
 
 # public routes
-public/*
+**/public/*
 
 # turbo routes
 **/.turbo/*
+
+# testing
+**/coverage/*

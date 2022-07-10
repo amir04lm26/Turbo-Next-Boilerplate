@@ -19,5 +19,15 @@ module.exports = {
         severity: 'warning',
       },
     ],
+    'color-function-notation': null,
   },
+  ignorePatterns: [
+    'node_modules', // # node_modules
+    'public', // # public route
+    'styles', // # styles
+    'coverage', // # testing
+    '.next', // # build
+    'dist', // # build
+    '.turbo', // # turbo routes
+  ],
 }

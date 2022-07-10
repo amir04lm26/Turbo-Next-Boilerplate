@@ -8,3 +8,9 @@ tsconfig.json
 
 # node_modules
 **/node_modules/*
+
+# turbo routes
+**/.turbo/*
+
+# testing
+coverage
