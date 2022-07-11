@@ -33,7 +33,7 @@ module.exports = {
           { devDependencies: ['**/?(*.)+(spec|test).[jt]s?(x)'] },
         ],
       },
-    }
+    },
   ],
   ignorePatterns: [
     'node_modules', // # node_modules

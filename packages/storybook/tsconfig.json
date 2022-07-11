@@ -3,16 +3,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@sui/*": [
-        "src/*"
-      ]
+      "@sui/*": ["src/*"]
     }
   },
-  "include": [
-    "next-env.d.ts",
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "src/**/*"],
+  "exclude": ["node_modules"]
 }
