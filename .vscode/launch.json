@@ -9,7 +9,7 @@
     },
     {
       "name": "Customer - Next.js: debug client-side",
-      "type": "pwa-chrome",
+      "type": "chrome",
       "request": "launch",
       "url": "http://localhost:4000"
     },
@@ -32,7 +32,7 @@
     },
     {
       "name": "panel - Next.js: debug client-side",
-      "type": "pwa-chrome",
+      "type": "chrome",
       "request": "launch",
       "url": "http://localhost:4001"
     },
@@ -51,11 +51,11 @@
       "name": "Storybook - Next.js: debug server-side",
       "type": "node-terminal",
       "request": "launch",
-      "command": "yarn workspace storybook dev"
+      "command": "yarn workspace share dev"
     },
     {
       "name": "Storybook - Next.js: debug client-side",
-      "type": "pwa-chrome",
+      "type": "chrome",
       "request": "launch",
       "url": "http://localhost:4006"
     },
@@ -63,7 +63,7 @@
       "name": "Storybook - Next.js: debug full stack",
       "type": "node-terminal",
       "request": "launch",
-      "command": "yarn workspace storybook dev",
+      "command": "yarn workspace share dev",
       "serverReadyAction": {
         "pattern": "started server on .+, url: (https?://.+)",
         "uriFormat": "%s",
@@ -72,7 +72,7 @@
     },
     {
       "name": "Storybook - Storybook: debug client-side",
-      "type": "pwa-chrome",
+      "type": "chrome",
       "request": "launch",
       "url": "http://localhost:6006"
     },
@@ -80,7 +80,7 @@
       "name": "Storybook - Storybook: debug full stack",
       "type": "node-terminal",
       "request": "launch",
-      "command": "yarn workspace storybook storybook",
+      "command": "yarn workspace share storybook",
       "serverReadyAction": {
         "pattern": "Local:.+(https?://[^ ]*:[0-9]{1,4})",
         "uriFormat": "%s",

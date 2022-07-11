@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@sui/*": ["src/*"]
+      "@share/*": ["src/*"]
     }
   },
   "include": ["next-env.d.ts", "src/**/*"],

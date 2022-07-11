@@ -4,7 +4,7 @@ module.exports = {
   extends: ['stylelint-config-custom'],
   settings: {
     next: {
-      rootDir: ['apps/*/', 'packages/storybook/'],
+      rootDir: ['apps/*/', 'packages/share/'],
     },
   },
 }
