@@ -10,7 +10,7 @@ This turborepo uses [Yarn](https://classic.yarnpkg.com/lang/en/) as a package ma
 
 - `customer`: a [Next.js](https://nextjs.org) app
 - `panel`: another [Next.js](https://nextjs.org) app
-- `design-system`: a stub React component library shared by all applications
+- `share`: a stub Next.js component library shared by all applications
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 

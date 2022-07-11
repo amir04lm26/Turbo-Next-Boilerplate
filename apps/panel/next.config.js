@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const withTM = require('next-transpile-modules')(['design-system', 'share'], {
+const withTM = require('next-transpile-modules')(['share'], {
   resolveSymlinks: false,
 })
 
