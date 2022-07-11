@@ -16,14 +16,20 @@
       "outputs": []
     },
     "test": {
-      "dependsOn": ["lint"],
+      "dependsOn": [],
       "outputs": ["coverage/**"],
       "outputMode": "full"
     },
+    "cypress": {
+      "dependsOn": [],
+      "outputs": []
+    },
     "dev": {
+      "dependsOn": ["format", "lint", "test"],
       "cache": false
     },
     "storybook": {
+      "dependsOn": ["format", "lint", "test"],
       "cache": false
     },
     "deploy": {

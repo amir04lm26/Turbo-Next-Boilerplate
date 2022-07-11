@@ -1,6 +1,10 @@
 module.exports = {
   env: { browser: true, node: true, jest: true },
   extends: ['eslint:recommended', 'next', 'next/core-web-vitals', 'prettier'],
+  parserOptions: {
+    sourceType: 'module',
+    ecmaVersion: 2022,
+  },
   rules: {
     '@next/next/no-html-link-for-pages': ['error', './src/pages'],
     'react/jsx-key': 'error',
