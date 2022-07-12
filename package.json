@@ -72,12 +72,6 @@
       "maxLineWidth": 100
     }
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"[Husky] pre-commit\" && yarn format && yarn lint",
-      "commit-msg": "exec < /dev/tty && yarn cz-commit --hook || true"
-    }
-  },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
