@@ -1,9 +1,9 @@
 import { defineConfig } from 'cypress'
-import { findNextPorn } from './src/utils'
+import { findNextPort } from 'utils/src/utils'
 import packageJson from './package.json'
 
 export default defineConfig({
   e2e: {
-    baseUrl: `http://localhost:${findNextPorn(packageJson.scripts.dev)}`,
+    baseUrl: `http://localhost:${findNextPort(packageJson.scripts.dev)}`,
   },
 })

@@ -1,0 +1,14 @@
+# build
+**/.next/*
+
+# node_modules
+**/node_modules/*
+
+# public routes
+public/*
+
+# turbo routes
+**/.turbo/*
+
+# testing
+**/coverage/*
