@@ -4,6 +4,7 @@
   "private": true,
   "workspaces": [
     "apps/*",
+    "configs/*",
     "packages/*"
   ],
   "scripts": {
@@ -14,25 +15,25 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,md,json}\"",
     "prepare": "husky install",
-    "cz-commit": "cz",
+    "commit": "cz",
     "build:customer": "turbo run build --filter=customer",
     "build:panel": "turbo run build --filter=panel",
     "dev:customer": "turbo run dev --filter=customer",
     "dev:panel": "turbo run dev --filter=panel",
-    "dev:share": "turbo run dev --filter=share",
-    "storybook": "turbo run storybook --filter=share",
+    "dev:design": "turbo run dev --filter=design",
+    "storybook": "turbo run storybook --filter=design",
     "test:customer": "turbo run test --filter=customer",
     "test:panel": "turbo run test --filter=panel",
-    "test:share": "turbo run test --filter=share",
+    "test:design": "turbo run test --filter=design",
     "cypress:customer": "turbo run cypress --filter=customer",
     "cypress:panel": "turbo run cypress --filter=panel",
-    "cypress:share": "turbo run cypress --filter=share",
+    "cypress:design": "turbo run cypress --filter=design",
     "lint:customer": "turbo run lint --filter=customer",
     "lint:panel": "turbo run lint --filter=panel",
-    "lint:share": "turbo run lint --filter=share",
+    "lint:design": "turbo run lint --filter=design",
     "format:customer": "turbo run format --filter=customer",
     "format:panel": "turbo run format --filter=panel",
-    "format:share": "turbo run format --filter=share"
+    "format:design": "turbo run format --filter=design"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
@@ -62,20 +63,6 @@
   },
   "dependencies": {
     "browserslist-config-custom": "*"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog",
-      "disableScopeLowerCase": true,
-      "disableSubjectLowerCase": true,
-      "maxHeaderWidth": 100,
-      "maxLineWidth": 100
-    }
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
   },
   "packageManager": "yarn@1.22.17"
 }

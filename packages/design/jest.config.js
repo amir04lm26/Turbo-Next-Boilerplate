@@ -10,7 +10,7 @@ const createJestConfig = nextJest({
 const customJestConfig = {
   ...customConfig,
   moduleNameMapper: {
-    '^@share/(.*)$': '<rootDir>/src/$1',
+    '^@design/(.*)$': '<rootDir>/src/$1',
   },
 }
 

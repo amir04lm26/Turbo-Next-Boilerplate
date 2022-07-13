@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Button } from '@share/components'
+import { Button } from '@design/components'
 import { HeaderProps } from './Header.models'
 import styles from './Header.module.scss'
 

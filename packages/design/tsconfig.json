@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@share/*": ["src/*"]
+      "@design/*": ["src/*"]
     }
   },
   "include": ["next-env.d.ts", "src/**/*"],

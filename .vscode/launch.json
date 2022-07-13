@@ -51,7 +51,7 @@
       "name": "Storybook - Next.js: debug server-side",
       "type": "node-terminal",
       "request": "launch",
-      "command": "yarn workspace share dev"
+      "command": "yarn workspace design dev"
     },
     {
       "name": "Storybook - Next.js: debug client-side",
@@ -63,7 +63,7 @@
       "name": "Storybook - Next.js: debug full stack",
       "type": "node-terminal",
       "request": "launch",
-      "command": "yarn workspace share dev",
+      "command": "yarn workspace design dev",
       "serverReadyAction": {
         "pattern": "started server on .+, url: (https?://.+)",
         "uriFormat": "%s",
@@ -80,7 +80,7 @@
       "name": "Storybook - Storybook: debug full stack",
       "type": "node-terminal",
       "request": "launch",
-      "command": "yarn workspace share storybook",
+      "command": "yarn workspace design storybook",
       "serverReadyAction": {
         "pattern": "Local:.+(https?://[^ ]*:[0-9]{1,4})",
         "uriFormat": "%s",

@@ -16,7 +16,7 @@ module.exports = {
     // 👈 and add this here
     config.resolve.alias = {
       ...config.resolve.alias,
-      '@share': path.resolve(__dirname, '../src/'),
+      '@design': path.resolve(__dirname, '../src/'),
     }
     return config
   },
