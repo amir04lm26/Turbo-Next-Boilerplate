@@ -1,6 +1,6 @@
+import { Header } from '@design/components'
 import React from 'react'
 
-import { Header } from '@design/components'
 import { User } from './HomePage.models'
 import styles from './HomePage.module.scss'
 

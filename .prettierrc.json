@@ -12,5 +12,13 @@
   "semi": false,
   "tabWidth": 2,
   "trailingComma": "es5",
-  "useTabs": false
+  "useTabs": false,
+  "importOrder": [
+    "^(?!.*\\.module)(.+\\.(c|sa|sc)ss)$",
+    "<THIRD_PARTY_MODULES>",
+    "^[./]",
+    "^(.+\\.module\\.(c|sa|sc)ss)$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }

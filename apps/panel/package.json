@@ -12,7 +12,8 @@
     "lint": "yarn lint:scripts; yarn lint:styles; yarn lint:json;",
     "lint:scripts": "eslint '**/*.{js,jsx,ts,tsx}'",
     "lint:styles": "stylelint '**/*.{css,scss}'",
-    "lint:json": "prettier --check '**/*.json'"
+    "lint:json": "prettier --check '**/*.json'",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,md,json}\""
   },
   "dependencies": {
     "browserslist-config-custom": "*",
